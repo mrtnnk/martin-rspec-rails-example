@@ -1,4 +1,4 @@
-# RSpec Rails Examples [![Build Status](https://travis-ci.org/eliotsykes/rspec-rails-examples.svg?branch=master)](https://travis-ci.org/eliotsykes/rspec-rails-examples) [![Join the chat at https://gitter.im/eliotsykes/rspec-rails-examples](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/eliotsykes/rspec-rails-examples?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# RSpec Rails Examples
 
 > An RSpec cheatsheet in the form of a Rails app. Learn how to expertly test Rails apps from a model codebase
 
@@ -14,7 +14,7 @@ In the README below, you'll find links to some of the most useful cheatsheets an
 
 See the well-commented files in the [spec/support](spec/support) directory for walkthroughs on how to configure popular testing gems, such as DatabaseCleaner, Capybara, and FactoryGirl.
 
-Hopefully this will be of help to those of you learning RSpec and Rails. If there's anything missing you'd like to see covered in the project, please submit your request via the [issue tracker](https://github.com/eliotsykes/rspec-rails-examples/issues), I'd be happy to help &mdash; [_Eliot Sykes_](https://eliotsykes.com)
+Hopefully this will be of help to those of you learning RSpec and Rails. If there's anything missing you'd like to see covered in the project, please submit your request via the [issue tracker](https://github.com/mrtnnk/martin-rspec-rails-example/issues), I'd be happy to help &mdash; [_Eliot Sykes_](https://eliotsykes.com)
 
 **PS. Interested in growing your skills *and* supporting this project?** Learn with the [TDD Masterclass](https://eliotsykes.com/#tdd), get [Test Coverage First Aid](https://eliotsykes.com/#coverage) for your app, or grow with [one-to-one coaching for Rails developers](https://eliotsykes.com/#coach).
 
@@ -284,7 +284,7 @@ To test a custom validator you've written, refer to these validator specs from o
 - [phone_number_validator_spec.rb](https://github.com/netguru/people/blob/410c8f9355b7295af9711aeade8210a1a97e0a0c/spec/validators/phone_number_validator_spec.rb) from Netguru-People
 - [no_empty_spaces_validator_spec.rb](https://github.com/danbartlett/opensit/blob/9d434bc6157b470c479f44c87c945c4652d37db1/spec/validators/no_empty_spaces_validator_spec.rb) from OpenSit
 
-Related task: [Demonstrate Validator Specs within rspec-rails-examples](https://github.com/eliotsykes/rspec-rails-examples/issues/106)
+Related task: [Demonstrate Validator Specs within rspec-rails-examples](https://github.com/mrtnnk/martin-rspec-rails-example/issues/106)
 
 
 # Enable Spring for RSpec
@@ -322,14 +322,10 @@ CI is usually accompanied by running an application's test suite against the lat
 
 Travis CI configuration how-to and example:
 - [.travis.yml](.travis.yml) - Travis CI's configuration file (with instructions)
-- [Our Travis CI build!](https://travis-ci.org/eliotsykes/rspec-rails-examples)
-- Our Travis CI badge (hopefully its green): [![Build Status](https://travis-ci.org/eliotsykes/rspec-rails-examples.svg?branch=master)](https://travis-ci.org/eliotsykes/rspec-rails-examples)
-
 ---
 
 # Contributors
 
-- Eliot Sykes https://eliotsykes.com/
 - Vitaly Tatarintsev https://github.com/ck3g
 - Ryan Wold https://afomi.com/
 - Andy Waite http://blog.andywaite.com/
